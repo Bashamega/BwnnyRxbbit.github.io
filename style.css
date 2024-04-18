@@ -6,3 +6,7 @@
 #codeImage {
     width: 100%;
 }
+
+#scratchLogo:hover {
+    cursor: pointer;
+}
