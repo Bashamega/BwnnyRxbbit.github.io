@@ -5,6 +5,6 @@ function checkPassword() {
     if (passwordBox.value == "sihan") {
         secretText.innerHTML = "Hello from Sihan!";
     } else {
-        secretText.innerHTML = "Wrong Password!"
+        secretText.innerHTML = "Wrong Password!";
     }
 }
