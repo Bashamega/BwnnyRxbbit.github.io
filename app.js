@@ -6,5 +6,6 @@ function checkPassword() {
         secretText.innerHTML = "Hello from Sihan!";
     } else {
         secretText.innerHTML = "Wrong Password!";
+        passwordBox.value == "";
     }
 }
