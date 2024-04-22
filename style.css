@@ -10,3 +10,7 @@
 #scratchLogo:hover {
     cursor: pointer;
 }
+
+.logo {
+    width: 5%;
+}
