@@ -5,6 +5,7 @@
 
 #codeImage {
     width: 100%;
+    height: 90vh;
 }
 
 #scratchLogo:hover {
@@ -13,4 +14,8 @@
 
 .logo {
     width: 5%;
+}
+
+#demo {
+    height: 96vh;
 }
