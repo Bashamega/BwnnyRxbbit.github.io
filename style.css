@@ -8,6 +8,10 @@
     height: 90vh;
 }
 
+#scratchLogo {
+    width: 50%
+}
+
 #scratchLogo:hover {
     cursor: pointer;
 }
