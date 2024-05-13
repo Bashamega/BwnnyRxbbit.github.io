@@ -59,20 +59,6 @@ section:last-child aside {
     height: 300px;
 }
 
-#secretText {
-    background-color: red;
-    padding: 15px;
-    width: 100%;
-
-}
-
-#secretText:empty {
-    display: none;
-}
-
-input,
-#secretText,
-button,
 .social {
     margin-top: 5%;
 }
