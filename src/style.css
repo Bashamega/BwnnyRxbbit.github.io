@@ -44,17 +44,19 @@ aside {
 section:last-child {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     position: relative;
 }
 
 section:last-child aside {
-    position: fixed;
+    position: sticky;
     width: 300px;
     /*display: flex;
     flex-direction: column;
     align-items: center;*/
     text-align: center;
+    top: calc(50% - 30px);
+    height: 300px;
 }
 
 #secretText {

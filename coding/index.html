@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sihan's Website</title>
   <link rel="icon" type="image/x-icon" href="/src/img/photo.jpeg">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/src/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-  <img id="codeImage" src="/src/img/banners/coding.jpg" alt="Code">
   <nav class="navbar navbar-expand-sm navbar-dark bg-danger sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Sihan's Website</a>
@@ -32,27 +31,58 @@
       </div>
     </div>
   </nav>
-  <h1>Coding Journey</h1>
-  <h2>2019:</h2>
-  <p>- In early 2019, Sihan started a new chapter in his life. I first started coding. I started coding in ScratchJr and
-    then Code.org.</p>
-  <h2>2020:</h2>
-  <p>- In early 2020, Sihan moved onto Scratch coding.</p>
-  <p>- In late 2020, Sihan started learning Python.</p>
-  <h2>2022:</h2>
-  <p>- In 2022, Sihan learnt HTML, CSS and JavaScript. The languages of the web.</p>
-  <h2>2024:</h2>
-  <p>- Sihan is still learning new coding langauges and further improving my coding skills. And Sihan still enjoys
-    coding on scratch.</p>
-  <h1>Scratch:</h1>
-  <a id="scratchLogo" href="https://scratch.mit.edu/users/BwnnyRxbbit/" target="_blank"><img src="/src/img/scratchLogo.png"
-      alt="Scratch Logo"></a>
-  <h2><br>Click the above scratch logo to go to my scratch profile.</h2><br><br>
-  <a target="_blank" href="https://scratchstats.com/BwnnyRxbbit">
-    <h2>My Statistics</h2>
-  </a><br><br>
-  <h2>SDS Curator | FPC #517 | SWC Reviewer | 7 Featured Studios | Many Curated Projects | Forumer</h2>
-  <a href="https://github.com/BwnnyRxbbit"><img class="logo" src="/src/img/Github.png" alt=""></a>
+  <img id="codeImage" src="/src/img/banners/coding.jpg" alt="Code">
+  <main class="container">
+    <div class="row">
+      <section class="col-sm-8 shadow-lg">
+        <h1>Coding Journey</h1>
+        <hr>
+        <h2>2019:</h2>
+        <p>- In early 2019, Sihan started a new chapter in his life. I first started coding. I started coding in
+          ScratchJr and
+          then Code.org.</p>
+        <h2>2020:</h2>
+        <p>- In early 2020, Sihan moved onto Scratch coding.</p>
+        <p>- In late 2020, Sihan started learning Python.</p>
+        <h2>2022:</h2>
+        <p>- In 2022, Sihan learnt HTML, CSS and JavaScript. The languages of the web.</p>
+        <h2>2024:</h2>
+        <p>- Sihan is still learning new coding langauges and further improving my coding skills. And Sihan still enjoys
+          coding on scratch.</p>
+        <h1>Scratch:</h1>
+        <a id="scratchLogo" href="https://scratch.mit.edu/users/BwnnyRxbbit/" target="_blank">
+          <img src="/src/img/scratchLogo.png" class="img-fluid" alt="Scratch Logo">
+        </a>
+        <h2><br>Click the above scratch logo to go to my scratch profile.</h2><br><br>
+        <a target="_blank" href="https://scratchstats.com/BwnnyRxbbit">
+          <button class=" btn-dark btn">My Statistics</button>
+        </a><br><br>
+        <h2>SDS Curator | FPC #517 | SWC Reviewer | 7 Featured Studios | Many Curated Projects | Forumer</h2>
+        <a href="https://github.com/BwnnyRxbbit"><img class="logo" src="/src/img/Github.png" alt=""></a>
+      </section>
+      <section class="col-sm-4">
+        <aside class="shadow-lg">
+          <h1>Password:</h1>
+          <input id="passwordBox" type="text" placeholder="Password" class="rounded border btn bg-white">
+          <button type="button" class="btn btn-info" onclick="checkPassword()">Submit</button>
+          <p id="secretText"></p>
+          <div>
+            <a href="https://www.instagram.com/sihanpathiraja/">
+              <img class=" social hover-zoom" src="/src/img/social/Instagram.png" alt="">
+            </a>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </main>
+  <footer class="bg-body-tertiary text-center text-lg-start mt-5">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024
+      | Sihan
+    </div>
+  </footer>
+
   <script src="/src/app.js"></script>
 </body>
 
