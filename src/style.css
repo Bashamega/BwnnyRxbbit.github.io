@@ -1,8 +1,3 @@
-#text {
-    color: yellow;
-    background-color: blue;
-}
-
 #codeImage {
     width: 100%;
     height: 90vh;
@@ -22,4 +17,75 @@
 
 #demo {
     height: 96vh;
+}
+
+.social {
+    width: 50px;
+}
+
+.icon {
+    width: 50%
+}
+
+main {
+    margin-top: 5%;
+
+}
+
+section:first-child,
+aside {
+    padding: 15px;
+    background-color: gainsboro;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+section:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section:last-child aside {
+    position: fixed;
+    width: 300px;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    text-align: center;
+}
+
+#secretText {
+    background-color: red;
+    padding: 15px;
+    width: 100%;
+
+}
+
+#secretText:empty {
+    display: none;
+}
+
+input,
+#secretText,
+button,
+.social {
+    margin-top: 5%;
+}
+
+hr {
+    background: linear-gradient(to right, red, rgb(0, 38, 255));
+    height: 5px;
+    border: 0;
+    border-radius: 20px;
+    width: 0; /* Initial width */
+    animation: grow 5s forwards; /* Apply the 'grow' animation over 5 seconds */
+}
+
+@keyframes grow {
+    100% {
+        width: 100%; /* Final width */
+    }
 }
