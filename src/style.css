@@ -40,6 +40,11 @@ aside {
     -webkit-backdrop-filter: blur(5px);
     border-radius: 10px;
 }
+/* Apply background color to the first child section and aside elements in dark theme */
+html[data-bs-theme="dark"] section:first-child,
+html[data-bs-theme="dark"] aside {
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
 section:last-child {
     display: flex;
